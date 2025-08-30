@@ -1,0 +1,21 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(55, 66, 66); */
+    margin: 2em;
+}
+
+
+.header-img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.main-moviecard-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    /* background-color: blanchedalmond; */
+    justify-items: center;
+    align-items: center;
+}

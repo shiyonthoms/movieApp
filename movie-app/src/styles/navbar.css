@@ -1,0 +1,31 @@
+.navbar{
+    background-color: #000000;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 1.5em;
+    vertical-align: center;
+}
+
+.nav-logo-img{
+    width: 120px;
+    cursor: pointer;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+    justify-content: center;
+}
+.nav-btn{
+    background-color: red;
+    padding: 0.5em 2em 0.5em 2em;
+    border-radius: 0.5em;
+    color: white;
+    cursor: pointer;
+    border: none;
+
+}
+
+
